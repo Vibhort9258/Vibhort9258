@@ -93,5 +93,17 @@ resource "aws_network_interface_sg_attachment" "sg_attachment" {
 security_group_id = aws_security_group.sg.id
 network_interface_id = aws_instance.instance.primary_network_interface_id
 }
-#Run the $ terraform init command
+# 4.Run the $ terraform init command
+# 5.Check the plan with $ terraform plan command
+# 6. Finally, run the $ terraform apply command to create an instance
+#Step 4 Verify the instance and check the application.
+# 1. Validation of instance
+#SSH to the instance
+# Validation the Java version
+# Validation the Jenkins.
+# Validation the Python version
+
+
+
+
 
