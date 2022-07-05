@@ -1,0 +1,14 @@
+---
+- hosts: web1
+  tasks:
+  - name: Ansible create user example.
+    user:
+      name: Test_ansible
+
+- hosts: web1
+  tasks:
+    - name: Create file
+      file:
+        path: /root/myfile.txt
+        state: touch
+
